@@ -13,7 +13,7 @@ function Product() {
    );
 
    return (
-      <div className="container mx-auto main-layout bg-gray-900">
+      <div className="container mx-auto main-layout bg-gray-900"  data-theme="light">
          <Header
             title="Books Detail"
             slogan="I believe you will not read this paragraph carefully."

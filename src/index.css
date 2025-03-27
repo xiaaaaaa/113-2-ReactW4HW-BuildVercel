@@ -1,13 +1,16 @@
-@import "tailwindcss" source(none);
+/* @import "tailwindcss" source(none); */
+@import "tailwindcss";
 @source "./pages";
 @source "./components";
+/* @plugin "daisyui" {
+  themes: all;
+} */
 @plugin "daisyui";
 @plugin "daisyui/theme" {
-  name: "mytheme";
-  default: true; /* set as default */
-  prefersdark: false; /* set as default dark mode (prefers-color-scheme:dark) */
-  color-scheme: light; /* color of browser-provided UI */
-  --color-primary: #6366F2;
+  name: "light";
+  default: true;
+  --color-primary: orange;
+  --color-secondary: teal;
 }
 
 html,

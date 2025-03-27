@@ -797,7 +797,7 @@ csstype@^3.0.2:
 
 daisyui@^5.0.9:
   version "5.0.9"
-  resolved "https://registry.npmjs.org/daisyui/-/daisyui-5.0.9.tgz"
+  resolved "https://registry.yarnpkg.com/daisyui/-/daisyui-5.0.9.tgz#d1e549732fcfad258cf8692b56d0f18f2a6a5c96"
   integrity sha512-RsaehHh45f+0shWgZZaOY09/8eOae2voRsqJCD71j9yrnYgcke0Nj5ys0ZxrW4SPcc4+q96kWyJu0Z8P1zZdoA==
 
 debug@^4.1.0, debug@^4.3.1, debug@^4.3.2:

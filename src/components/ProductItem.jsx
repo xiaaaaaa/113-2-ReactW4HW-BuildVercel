@@ -8,12 +8,11 @@ function ProductItem({ book }) {
             <Link to={`/books/id/${book.id}`}>
                <img className="w-full" src={book.cover} alt={book.title} />
             </Link>
-            {/* <img className="w-full" src={books.cover} alt={books.title} /> */}
             <div className="p-4">
                <h6 className="text-white text-xl mb-1">
                   {book.title}
                </h6>
-               <h5 className="text-gray text-sm opacity-80 mb-5">
+               <h5 className="text-white text-sm opacity-80 mb-5">
                   {book.author}
                </h5>
                <p className="text-white text-sm  opacity-70 mb-4">{book.summary}</p>

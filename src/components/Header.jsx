@@ -13,7 +13,7 @@ function Header({ title, slogan }) {
             {slogan}
          </p>
          <div className="flex mt-6 justify-center">
-            <hr className="my-[25px] mx-auto w-[100px] border-0 border-t-[6px] border-yellow-800 opacity-100 rounded" />
+            <hr className="my-[25px] mx-auto w-[100px] border-0 border-t-[6px] border-primary opacity-100 rounded" />
          </div>
       </header>
    );
