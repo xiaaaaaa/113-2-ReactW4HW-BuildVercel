@@ -1,4 +1,5 @@
 import { Link } from "react-router"
+import CartSummary from "./CartSummary";
 
 function Header({ title, slogan }) {
    return (
@@ -12,6 +13,7 @@ function Header({ title, slogan }) {
          <p className="text-gray-400 text-opacity-80 text-base leading-relaxed xl:w-1/2 lg:w-3/4 mx-auto">
             {slogan}
          </p>
+         <CartSummary />
          <div className="flex mt-6 justify-center">
             <hr className="my-[25px] mx-auto w-[100px] border-0 border-t-[6px] border-primary opacity-100 rounded" />
          </div>

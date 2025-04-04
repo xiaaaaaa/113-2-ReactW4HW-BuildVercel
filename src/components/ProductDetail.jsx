@@ -2,9 +2,6 @@ import AddToCart from "./AddToCart"
 
 function ProductDetail({ book }) {
   return (
-    // <div>
-    //     <p>sdg</p>
-    //   </div>
 
     <div className="grid grid-cols-1 lg:grid-cols-24 gap-8 justify-center">
 
@@ -28,7 +25,7 @@ function ProductDetail({ book }) {
         <div className="flex flex-col gap-4">
           {/* <p className="text-2xl font-semibold text-yellow-500">US${book.price}.00</p> */}
           <p className="text-2xl font-semibold text-yellow-500">US${book.price}.00</p>
-          <AddToCart />
+          <AddToCart book={book}  />
         </div>
       </div>
 
